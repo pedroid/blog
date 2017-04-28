@@ -89,7 +89,7 @@
 
 	<!-- My Style -->
 	<link type="text/css" rel="stylesheet" href="css/style.css">
-	<link type="text/css" rel="stylesheet" href="css/style_responsive.css">
+	<link type="text/css" rel="stylesheet" href="css/style_responsive.css"> 
 
 	<script type="text/javascript" src="js/lab-main.js"></script>
 </head>
@@ -111,6 +111,8 @@
 				<div class="sort-text"></div>
 				<div class="sort recipe" rel="recipe">recipe</div>
 				<div class="sort computer_science" rel="computer_science">computer_science</div>
+				<div class="sort woodwork" rel="woodwork">woodwork</div>
+				<div class="sort teaching_plan" rel="teaching_plan">teaching plan</div>
 				<div class="sort" rel="all">All</div>
 			</div>
 		</div>
@@ -118,10 +120,58 @@
 
 		<div class="content-wrapper">
 
+			<div class="grid-item woodwork">
+				<div class="description">
+					<div class="item-title"><A HREF="woodwork/活動角尺.html" target="_blank">活動角尺</A></div>
+					<div class="item-detail">不插電木工手工具</div>
+					<div class="item-tags">
+						<div class="tag">woodwork</div>
+					</div>
+					<div class="thumb-title"><img src="resources/photos/woodwork/20170427_161823.small.jpg"/></div>
+				</div>
+			</div>
+			<div class="grid-item teaching_plan">
+				<div class="description">
+					<div class="item-title"><A HREF="TeachingPlan/小水滴的旅行.html" target="_blank">小水滴的旅行</A></div>
+					<div class="item-detail">環境教案</div>
+					<div class="item-tags">
+						<div class="tag">teaching_plan</div>
+					</div>
+				</div>
+			</div>
+			<div class="grid-item woodwork">
+				<div class="description">
+					<div class="item-title"><A HREF="woodwork/planer01.html" target="_blank">拉槽刨刀</A></div>
+					<div class="item-detail">不插電木工手工具</div>
+					<div class="item-tags">
+						<div class="tag">woodwork</div>
+					</div>
+					<div class="thumb-title"><img src="resources/photos/woodwork/20170420_103536.small.jpg"/></div>
+				</div>
+			</div>
 
+			<div class="grid-item computer_science">
+				<div class="description">
+					<div class="item-title"><A HREF="computer_science/markdown_blog.html" target="_blank">A Modified Markdown WYSIWYG Interface</A></div>
+					<div class="item-detail">Markdown的重新組合應用</div>
+					<div class="item-tags">
+						<div class="tag">computer_science</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-item woodwork">
+				<div class="description">
+					<div class="item-title"><A HREF="woodwork/WoodCryptex.html" target="_blank">木製寶藏鎖</A></div>
+					<div class="item-detail">Cryptex</div>
+					<div class="item-tags">
+						<div class="tag">woodwork</div>
+					</div>
+					<div class="thumb-title"><img src="resources/photos/woodwork/20170414_212207.small.jpg"/></div>
+				</div>
+			</div>
 
 			<div class="grid-item recipe">
-				<div class="thumb-title"><img src="thumb/html2_canvas.png"/></div>
 				<div class="description">
 					<div class="item-title"><A HREF="recipe/beef_noodle.html" target="_blank">牛肉麵</A></div>
 					<div class="item-detail">陳家牛肉麵</div>
@@ -132,7 +182,6 @@
 			</div>
 
 			<div class="grid-item computer_science">
-				<div class="thumb-title"><img src="thumb/html2_canvas.png"/></div>
 				<div class="description">
 					<div class="item-title"><A HREF="computer_science/Qt_thread_notes.html" target="_blank">QThread 使用筆記</A></div>
 					<div class="item-detail">QThread 使用筆記</div>
@@ -145,7 +194,7 @@
 		</div>
 <div class='content-wrapper'>
 	<h2>網站的架設</h2>
-	<p>這個網站同步更新於yushengc.twbbs.org:9090以及<a href="https://pedroid.github.io/blog/" target="_blank">github </a>上。yushengc.twbbs.org是一個實驗性質的網站，建設在amazon ec2，在其中自行建設網站伺服器，保有了較大的彈性，可以基於node.js Server上實驗一些後端的功能，也將blog架設在底下。blog儲存在github上，同步於Dropbox，因此blog底下的所有文件任何人都可以access 到，而任何一台電腦可以開啟Dropbox中的網頁檔進行編輯並自動同步，當完成變更後再push到github上。而在github上的網站則是為了確保不用為了有一天因為某些原因網站掛掉時的備份。 </p>
+	<p>這是一個實驗性質的網站，建設在amazon ec2，在其中自行建設網站伺服器，保有了較大的彈性，可以基於node.js Server上實驗一些後端的功能，也將blog架設在底下。blog儲存在github上，同步於Dropbox，因此blog底下的所有文件任何人都可以access 到，而任何一台電腦可以開啟Dropbox中的網頁檔進行編輯並自動同步，當完成變更後再push到github上。而在github上的網站則是為了確保不用為了有一天因為某些原因網站掛掉時的備份。 </p>
 	<p>目前網站的內容與呈現採疊代的方式進行更新，一邊增加內容，以html的格式存檔，一邊開發美觀(CSS)、以及編輯模式。
 	<h3>是否使用現行的CMS</h3>
 	<p>
@@ -164,6 +213,8 @@
 		<li>系統的穩定性</li>
 		<p>自己架設系統的煩惱之一是要擔心會不會某一天因為某種原因(跳電、系統當機等)而在不知情的時候Server掛掉服務中斷而不知情，這也是筆者一直沒辦法長久的使用自己架設的網站的最大原因筆者目前的</p>
 	</ul>
+	<h4>文章的主題</h4>
+	<p>電腦科學與自己打造生活用品是我最喜愛的兩個領域，越是接觸這兩個領域，越覺得他們的關連之大超乎預期，而且是相輔相成的。電腦科學與自造的樂趣在於其中藏了許多人類的智慧在其中，電腦科學幫助我們以更有效率的方法解決當下的問題 並預期未來遇到類似的問題也能以最小的出力來解決他。而自造某方面來看也是幫助我們以生活中最基本的元素開始打造生活中會用到的事務 不只解決當下的需求，也準備好未來遇到問題時，有能力去解析並找出解決方案。</p>
 	</p>
 </div>
 	</div>

@@ -1,8 +1,12 @@
 #B+tree
-![](../blog/resources/photos/computer_science/BPlusTreeStructure.PNG)
-![](../blog/resources/photos/computer_science/BPlusTreeStructure_insert01.PNG)
-![](../blog/resources/photos/computer_science/BPlusTreeStructure_insert02.PNG)
-![](../blog/resources/photos/computer_science/BPlusTreeStructure_insert03.PNG)
+![](../../blog/resources/photos/computer_science/BPlusTreeStructure.PNG)
+
+![](../../blog/resources/photos/computer_science/BPlusTreeStructure_insert01.PNG)
+
+![](../../blog/resources/photos/computer_science/BPlusTreeStructure_insert02.PNG)
+
+![](../../blog/resources/photos/computer_science/BPlusTreeStructure_insert03.PNG)
+
 [說明的滿清楚的Youtube影片](https://www.youtube.com/watch?v=_nY8yR6iqx4&index=2&list=PLXAjOiPf89kP8wP-njE2o0y9qnrwt6xUd)
 ##Hash
 
