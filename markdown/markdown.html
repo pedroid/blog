@@ -440,10 +440,14 @@
 					
 					break;
 				}
+				case "u2b":{
+					preview.innerHTML += StringSet[i].data;
+					break;
+				}
 			}
 		}
-		console.log('test');
-		  var final_html = html_advance(html_results);
+		  //var final_html = html_advance(html_results);
+		  var final_html = html_results;
         };
         input.editor = this;
 //	$("#text-input").height($("#preview").height());

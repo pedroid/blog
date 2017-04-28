@@ -1,13 +1,17 @@
 #曾老師雕刻影像記錄
-@u2b
-https://youtu.be/oJBODJ8lvM0
-@u2bb
 
-@u2b
-https://youtu.be/i8NkGp5P66U
-@u2bb
+##雕刻文字
+@u2b{
+https://www.youtube.com/embed/oJBODJ8lvM0
+}
 
-@u2b
-https://youtu.be/l4K52-QpTOU
-@u2bb
+##雕刻
+@u2b{
+https://www.youtube.com/embed/i8NkGp5P66U
+}
+
+##使用線鋸
+@u2b{
+https://www.youtube.com/embed/l4K52-QpTOU
+}
 
