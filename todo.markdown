@@ -32,5 +32,7 @@ vue: simpler than angular
 22. markdown++
 23. facebooc trace
 24. pattern template
+1. AWS API [youtube tutorial](https://www.youtube.com/watch?v=mfAT38B_uhw), [youtube tutorial2](https://egghead.io/lessons/node-js-use-aws-lambda-and-api-gateway-to-return-resume-data), [youtube tutorial 3](https://www.youtube.com/watch?v=71cd5XerKss)
+
 
 ##blog
