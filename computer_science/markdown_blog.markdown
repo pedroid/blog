@@ -1,6 +1,6 @@
 #A modified markdown WYSIWYG interface 
 
-##[demo](http://yushengc.twbbs.org:9090/markdown/markdown_demo.html)
+##[demo](http://yushengc.twbbs.org:9090/blog/markdown/markdown_demo.html)
 
 
 ##Introduction
@@ -41,7 +41,7 @@ Markdown
 1. string -> pre-processor -> string Object array
 2. 再依序處理string object
 
-@html
+@html{
 <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <g>
@@ -96,7 +96,7 @@ Markdown
   <text style="cursor: move;" id="svg_65" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="253" x="75" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">修改後的流程</text>
  </g>
 </svg>
-@htmll
+}
 
 String Constructor
 

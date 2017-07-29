@@ -6,6 +6,7 @@ var StringNode = function(data, property, description){
 }
 
 var html_preprocessing = function(content){
+	console.log(content);
 	var output = "";
 	var parse_result=[];
 	parse_result.publish = false;
@@ -31,16 +32,20 @@ var html_preprocessing = function(content){
 	var tmp_html_content = "";
 	var tmp_u2b_content = "";
 	var tmp_content = "";
-        StringSet = [];
+        var StringSet = [];
 	//parse_result.code.push("");
+	console.log('1:', StringSet);
 	for(id_content_array in content_array){
 		each_content = content_array[id_content_array];
 		//console.log(each_content);		
 		if(patt_tag.test(each_content)){
 			var tag_content = each_content.split('!tag')[1];
+			console.log('tag_content'+tag_content);
 			var tag_content_array = tag_content.split(',');
+			console.log('tag_content_array:'+tag_content_array);
 			parse_result.tag_content_array = tag_content_array;
 			StringSet.push(StringNode(tag_content_array, "system_cmd", "tag"));
+			console.log(StringSet);
 			continue;
 		}else if(patt_publish.test(each_content)){ 
 			parse_result.publish = true;	
@@ -110,6 +115,7 @@ var html_preprocessing = function(content){
 		
 	}
 	if(tmp_content!=""){
+		console.log(tmp_content);
 		var tmp = new StringNode(tmp_content, "markdown_input", "");
 		StringSet.push(tmp);
 	}

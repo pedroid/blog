@@ -36,3 +36,7 @@ vue: simpler than angular
 
 
 ##blog
+
+
+##research
+[由動作產生尺輪的論文](https://s3-us-west-1.amazonaws.com/disneyresearch/wp-content/uploads/20140804211255/CDMC1.pdf)
